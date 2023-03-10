@@ -1,0 +1,122 @@
+:root {
+    --color-: #fff;
+    --color-negro: rgb(38, 36, 36);
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: rgb(130, 243, 224);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.box:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    opacity: 1;
+}
+
+span {
+    width: 5rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.2rem;
+    border: 1px solid inherit;
+    background-color: var(--color-negro);
+    border-radius: 0.2rem ;
+    -webkit-border-radius: 0.2rem ;
+    -moz-border-radius: 0.2rem ;
+    -ms-border-radius: 0.2rem ;
+    -o-border-radius: 0.2rem ;
+    color: var(--color-);
+    position: absolute;
+    transform: translateY(-45px);
+    -webkit-transform: translateY(-45px);
+    -moz-transform: translateY(-45px);
+    -ms-transform: translateY(-45px);
+    -o-transform: translateY(-45px);
+    
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+span::after {
+    content: "";
+    border-top: 10px solid var(--color-negro);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.9rem;
+}
+
+@media screen and (min-width: 1020px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+    
+    img {
+        width: 180px;
+        height: 180px;
+    }
+   
+}
+span {
+    width: 5rem;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.2rem;
+    border: 1px solid var(--color-negro);
+    background-color: var(--color-negro);
+    border-radius: 0.2rem ;
+    -webkit-border-radius: 0.2rem ;
+    -moz-border-radius: 0.2rem ;
+    -ms-border-radius: 0.2rem ;
+    -o-border-radius: 0.2rem ;
+    color: var(--color-);
+    position: absolute;
+    margin-top: -70px;
+    }
+.box {
+    display: flex;
+    justify-content: center;
+}
+span::after {
+    content: "";
+    border-top: 10px solid var(--color-negro);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.9rem;
+}
+
+
+
+
+
+
+
+  
