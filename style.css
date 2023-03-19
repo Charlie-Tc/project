@@ -1,0 +1,75 @@
+:root {
+}
+
+/* ******* Reset Styles ******* */
+
+/* ******* Boostrap Styles ******* */
+
+/* ******* My Styles ******* */
+.box-shadow {
+    border-radius: 3rem;
+    box-shadow: 0px 2px 7px 0.1px rgb(128 128 128 / 0.2);
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+.hover:hover {
+    content: "";
+    width: 12rem;
+    height: 3.9rem;
+    cursor: pointer;
+    font-size: 0;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    color:rgb(201, 125, 252);
+    background: linear-gradient(to right top, rgb(201, 125, 252) 50%, rgb(245, 153, 253));
+    box-shadow: 0px 2px 14px ;
+}
+
+.hover:hover::after{
+    content: "HOME";
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    padding-left: 1em;
+}
+
+.hover:nth-child(1):hover::after {
+    padding-left: 1.8em;
+}
+.hover:nth-child(2):hover {
+    background: linear-gradient(to right top, rgb(105, 181, 252) 50%, rgb(41, 121, 241));
+    color: rgb(105, 181, 252);
+}
+.hover:nth-child(2):hover::after {
+    content: "MESSAGE";
+}
+
+.hover:nth-child(3):hover {
+    background: linear-gradient(to right top, rgb(245, 162, 107) 50%, rgb(238, 106, 18));
+    color: rgb(245, 162, 107);
+}
+.hover:nth-child(3):hover::after {
+    content: "FAVOURITE";
+}
+
+.hover:nth-child(4):hover {
+    background: linear-gradient(to right top, rgb(144, 241, 176) 50%, rgb(159, 211, 241));
+    color: rgb(144, 241, 176);
+}
+.hover:nth-child(4):hover::after {
+    content: "MESSAGE";
+}
+
+.hover:nth-child(5):hover {
+    background: linear-gradient(to right top, rgb(248, 146, 243) 50%, rgb(243, 97, 243));
+    color: rgb(248, 146, 243);
+}
+.hover:nth-child(5):hover::after {
+    content: "PHOTOS";
+}
+
